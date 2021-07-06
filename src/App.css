@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
+.dot {
+  height: 70px;
+  width: 70px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.dotRed {
+  height: 70px;
+  width:  70px;
+  background-color: rgb(202, 13, 13);
+  border-radius: 50%;
+  display: inline-block;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.dot1 {
+  height: 70px;
+  width: 70px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  right: 664px;
+  top: 39px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.dotRed1 {
+  height: 70px;
+  width:  70px;
+  background-color: rgb(202, 13, 13);
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  right: 664px;
+  top: 39px;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+
+
+
+.mainDiv{
+  position: relative;
+  width: 206px;
+  height: 190px;
+  margin: 0px auto;
+  margin-top:150px;
+}
+.square{
+  width:100px;
+  height:100px;
+  background:#3d3d3d;
+  border:solid 2px #FFF;
+  transform: skew(180deg,210deg);
+  position: absolute;
+  top: 43px;
+  margin-top:px;
+
+}
+.square2{
+  width:100px;
+  height:100px;
+  background:#3a3838;
+  border:solid 2px #FFF;
+  transform: skew(180deg,150deg);
+  position: absolute;
+  left:102px;
+  top: 43px;
+}
+.square3{
+  width:114px;
+  height:100px;
+  background:#3d3d3d;
+  border:solid 2px #FFF;
+ 
+
+transform: rotate(150deg) translate(-40px, -16px) skew(30deg, 0deg);
+  position: absolute;
+  left: 0px;
+  top: -32px;
 }
